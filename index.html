@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="shortcut icon" href="./asset/images/Logo (3).svg" type="image/x-icon">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <main class="main">
+        <section class="wrapper">
+
+          <!-- LEFT CONTAINER -->
+            <section class="left_section">
+              <img src="./asset/images/Logo (3).svg" alt="Logo"/>
+              <h1>For Individuals</h1>
+              <p class="desktop_text">
+                Start benefiting from the wellness experience. For companies looking
+                on increasing productivity, and improving <br>organization wellness.
+              </p>
+              <p class="mobile_text">
+                Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+              </p>
+            </section>
+      
+            <!-- RIGHT CONTAINER -->
+            <section class="right_section">
+
+              <!-- FORM SECTION -->
+              <form action="">
+                <section class="form_section">
+
+                  <section class="firstname-lastname">
+                    <div class="firstname_container container">
+                      <label for="firstName" id="label">First Name</label>
+                      <input type="text" name="firstName" id="firstName" required placeholder="Tolu" class="firstname" spellcheck="true" autocomplete="on">
+                    </div>
+                    
+                    <div class="lastname_container container">
+                      <label for="lastName">Last Name</label>
+                      <input type="text" name="lastName" id="lastName" required class="lastname" spellcheck="true" autocomplete="on">
+                    </div>
+                  </section>
+
+                  <section class="gender_dateofbirth">
+                    <div class="gender container">
+                      <label for="gender">Select gender</label>
+                      <select name="gender" id="gender" class="gender_select" required>
+                          <option value="">select here</option>
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                      </select>
+                    </div>
+
+                    <div class="birth_date container">
+                      <label for="birth">Date of Birth</label>
+                      <div class="calender_input">
+                        <input type="text" name="birth" id="birth" placeholder="select here" required>
+                        <img src="./asset/images/u_a_calendar-alt.svg" alt="">
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="weight_height">
+                    <div class="weight container">
+                      <label for="weight">weight (KG)</label>
+                      <input type="text" name="weight" id="weight" required placeholder="Enter weight" class="weight">
+                    </div>
+
+                    <div class="height container">
+                      <label for="height">Height (CM)</label>
+                      <input type="text" name="height" id="height" class="height" placeholder="Enter height here" required>
+                    </div>
+                  </section>
+
+                </section>
+                
+                <!-- Activity AND Password Section-->
+                <section class="activity_password_section">
+                      <div class="activity_container">
+                          <label for="activity">Activity Level</label>
+                          <select name="activity" id="activity" class="activity_select" required>
+                              <option value="">Select Here</option>
+                              <option value="Beginner">Beginner</option>
+                              <option value="Intermediate">Intermediate</option>
+                              <option value="Advance">Advance</option>
+                          </select>
+                      </div>
+                      <div class="password_container">
+                          <label for="password" class="password_label">Password</label>
+                          <div class="password_input">
+                              <input type="password" name="password" class="password" required>
+                              <img src="./asset/images/114073-200.png" alt="">
+                          </div>
+                      </div>
+                      <div class="button_container">
+                          <button type="submit">Register</button>
+                      </div>
+
+                      <!-- DESKTOP FORM FOOTER -->
+                      <footer class="desktop_footer">
+                        <p>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
+                     </footer>
+                </section> 
+                </div>     
+              </form>
+
+              <!-- MOBILE FOOTER -->
+              <footer class="mobile_footer">
+                <p>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
+             </footer>
+            </section>
+        </section>
+    </main>
+  </body>
+</html>
+
+
