@@ -150,7 +150,6 @@ label,
 select,
 button {
   width: 100%;
-  height: auto;
 }
 
 input,
@@ -161,8 +160,7 @@ select {
   border: 1px solid rgba(240, 240, 240, 1);
 }
 
-[type*="text"],
-[name*="gender"],
+[type*="text"],[name*="gender"],
 [name*="activity"] {
   font-size: 0.8rem;
 }
@@ -180,7 +178,6 @@ input,
 }
 
 .calender_input {
-  display: inline-block;
   position: relative;
   width: 100%;
 
@@ -201,7 +198,7 @@ input,
   margin-block-end: 20px;
 }
 
-.activity_select {
+.activity_container .activity_select {
   padding-block: 14px;
   padding-inline-start: 16px;
   padding-inline-end: 52px;
